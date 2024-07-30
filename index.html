@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .navbar {
+            display: flex;
+            text-decoration: none;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: black;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        .navbar .signin {
+            background-color: #2596be;
+            color: white;
+            width: 8%;
+            padding: 5px;
+            text-align: center;
+            border-radius: 25px;
+        }
+
+        .signin .fa-user {
+            background-color: #052e76;
+            padding: 5px;
+            border-radius: 50%;
+            margin-left: 10%;
+        }
+
+        .signin:hover {
+            background-color: darkblue;
+        }
+
+        .signin:hover .fa-user {
+            background-color: #00baf2;
+        }
+
+        .container {
+            background-color: #00baf2;
+            color: white;
+            padding: 10px;
+        }
+
+        .Recharge {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .Recharge img {
+            width: 60px;
+        }
+
+        .Recharge p {
+            color: white;
+            font-size: 1.4rem;
+        }
+
+        .section3 {
+            display: flex;
+            justify-content: space-between;
+            padding: 5% 0% 3% 0%
+        }
+
+        .payments-app {
+            width: 40%;
+            font-family: sans-serif;
+            padding-left: 5px;
+        }
+
+        .payments-app img {
+            width: 20%;
+        }
+
+        .payments-app h1 {
+            font-size: 3rem;
+        }
+
+        .payments-app p {
+            font-size: 1.5rem;
+        }
+
+        .payments-app a {
+            background-color: black;
+            color: white;
+            padding: 10px 5%;
+            border-radius: 25px;
+        }
+
+        .payments-app a *{
+            margin: 5px;
+        }
+
+        .payments-app a:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+        }
+
+        .section3 .upi-payment {
+            width: 40%;
+        }
+        .section4 {
+            display: flex;
+            justify-content: space-between;
+            padding: 5% 0% 3% 0%
+        }
+        .upi-transfer {
+            width: 40%;
+            font-family: sans-serif;
+            padding-left: 5px;
+        }
+
+        .upi-transfer img {
+            width: 20%;
+        }
+
+        .upi-transfer h1 {
+            font-size: 3rem;
+        }
+
+        .upi-transfer p {
+            font-size: 1.5rem;
+        }
+
+        .upi-transfer a {
+            background-color: black;
+            color: white;
+            padding: 10px 5%;
+            border-radius: 25px;
+        }
+
+        .upi-transfer a *{
+            margin: 5px;
+        }
+
+        .upi-transfer a:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+        }
+
+        .section4 .upi-payment {
+            width: 40%;
+        }
+        .payment-image{
+            width: 40%;
+        }
+        @media (max-width:436px){
+            .section3 {
+                flex-direction :column;
+            }
+            .payments-app{
+                width:100%;
+                margin-bottom: 5%;
+            }
+            .payment-app h1{
+                font-size: 2.3rem;
+            }
+            .payment-app p{
+                font-size: 0.9rem;
+            }
+            .section3 .upi-payment{
+                width:100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href=""><img src="https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/logo.svg" /></a>
+        <a href="">paytm for consumer</a>
+        <a href="">paytm For Business</a>
+        <a href="">Investor Relations</a>
+        <a href="">Company</a>
+        <a href="">career</a>
+        <a href="" class="signin">
+            <span>signin<span>
+                    <i class="fa-solid fa-user"></i>
+        </a>
+    </nav>
+    <div class="container">
+        <h1>Recharge & Pay Bills On Paytm</h1>
+        <div class="Recharge">
+            <a href=""><img src="https://assetscdn1.paytm.com/images/catalog/view_item/733299/1626251017535.png">
+                <p>Recharge <br> Prepaid <br> Mobile</p>
+            </a>
+            <a href=""><img src="https://assetscdn1.paytm.com/images/catalog/view_item/733308/1626251043534.png">
+                <p>pay <br> Electricity <br> Bill </p>
+            </a>
+            <a href=""><img src="https://assetscdn1.paytm.com/images/catalog/view_item/733311/1626251101045.png">
+                <p>Recharge <br> DTH <br> connection </p>
+            </a>
+            <a href=""><img src="https://assetscdn1.paytm.com/images/catalog/view_item/733307/1626251127863.png">
+                <p>Book <br> Gas <br> Cyliner</p>
+            </a>
+            <a href=""><img src="https://assetscdn1.paytm.com/images/catalog/view_item/1269194/1672827522093.png">
+                <p>Pay <br> Broadband& <br> Landline Bill</p>
+            </a>
+            <a href=""><img src="https://assetscdn1.paytm.com/images/catalog/view_item/1269198/1672828917034.png">
+                <p>Pay <br> Education <br> Fee</p>
+            </a>
+            <a href=""><img src="https://assetscdn1.paytm.com/images/catalog/view_item/757701/1626268580682.png">
+                <p>All <br> Payments <br>Services</p>
+            </a>
+        </div>
+    </div>
+    <section class="section3">
+        <div class="payments-app">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view/310944/1697527183231.png"
+                alt="">
+            <h1>India's Most-loved Payments App</h1>
+            <p>Recharge & pay bills, book flights & movie tickets, invest in stocks & mutual funds, and do a lot
+                more.</p>
+            <a href="">
+                Download paytm App
+                <i class="fa-brands fa-apple"></i>
+                <i class="fa-brands fa-google-play"></i>
+            </a>
+        </div>
+        <img class="upi-payment" src="https://assetscdn1.paytm.com/images/catalog/view_item/850762/1715933362922.png" alt="">
+    </section>
+    
+    <section class="section4">
+        <div class="upi-transfer">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view/307186/1615957674521.png" alt="">
+            <h1>Pay anyone directly from your bank account</h1>
+            <p>Pay anyone, everywhere. Make contactless & secure payments in-stores or online using Paytm UPI or Directly from your Bank Account. Plus, send & receive money from anyone.
+            </p>
+            <a href="">
+                Download paytm App
+                <i class="fa-brands fa-apple"></i>
+                <i class="fa-brands fa-google-play"></i>
+            </a>
+        </div>
+        <img class="payment-image" src="https://assetscdn1.paytm.com/images/catalog/view_item/728702/1626342071104.png" alt="" width=60%>
+    </section>
+
+</body>
+
+</html>
